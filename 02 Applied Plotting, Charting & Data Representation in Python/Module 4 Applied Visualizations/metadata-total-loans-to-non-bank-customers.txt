@@ -1,0 +1,102 @@
+# Metadata for Total Loans to Non-Bank Customers
+---
+Identifier: 'f85d716e-84d5-471c-bd90-74db2d51986a'
+Name: 'total-loans-to-non-bank-customers'
+Title: 'Total Loans to Non-Bank Customers'
+Description:
+  - 'The total includes both loans in the Domestic Banking Unit (DBU) and the Asian
+    Currency Unit (ACU). All figures in S$ millions and are as of end of each month.'
+  - ''
+  - 'From March 2004, the industry categories have been refined according to the Singapore
+    Standard Industrial Classification adopted by the Singapore Department of Statistics.
+    The industrial classification is by end-use of loans. If this classification is
+    not possible, the borrower''s main business activity will be used.'
+  - ''
+  - 'Buildings and Construction Includes loans to building and building co-operative
+    societies, building developers and real estate agents.'
+Topics:
+  - 'Economy'
+  - 'Finance'
+Keywords:
+  - 'Banking'
+  - 'Debt'
+  - 'Finance'
+  - 'Loans'
+Publisher:
+  Name: 'Monetary Authority of Singapore'
+  Admin 1:
+    Name: 'Brian Yeoh'
+    Department: 'MAS'
+    Email: 'Brian_YEOH@mas.gov.sg'
+Sources:
+  - 'Monetary Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2004-03-01 to 2015-08-31'
+Last Updated: '2017-04-19T08:14:34.509579'
+Resources:
+  -
+    Identifier: '58461bbc-2e45-435b-9775-e68e5a936acf'
+    Title: 'Total Loans to Non-Bank Customers'
+    Url: 'https://storage.data.gov.sg/total-loans-to-non-bank-customers/resources/total-loans-to-non-bank-customers-2016-02-11T02-12-37Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-03-01 to 2015-08-31'
+    Last Updated: '2016-02-11T02:12:37.206247'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'total_loans'
+        Title: 'Total Loans'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
+      -
+        Name: 'total_loans_business'
+        Title: 'Total Loans Business'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
+      -
+        Name: 'total_loans_consumer'
+        Title: 'Total Loans Consumer'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
+  -
+    Identifier: '053b2255-05fb-4602-a63c-d2a4c95b1ebd'
+    Title: 'Total Loans to Non-Bank Customers by Type'
+    Url: 'https://storage.data.gov.sg/total-loans-to-non-bank-customers/resources/total-loans-to-non-bank-customers-by-type-2016-02-11T02-15-09Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-03-01 to 2015-08-31'
+    Description: 'This shows the total loans by customer type at the end of each month.'
+    Last Updated: '2016-02-11T02:15:09.170499'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'level_1'
+        Title: 'Level 1'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Denotes whether the loans are for Business or Consumer.'
+      -
+        Name: 'level_2'
+        Title: 'Level 2'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Breakdowns of the Level 1 categories.'
+      -
+        Name: 'total_loans'
+        Title: 'Total Loans'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
